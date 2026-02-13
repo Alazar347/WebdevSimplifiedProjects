@@ -1,0 +1,20 @@
+.header-text {
+    text-align: center;
+}
+
+.Hobbies-section, .FavoriteLanguages {
+    background-color: green;
+    color: white;
+}
+
+.section-title {
+    font-family: Arial;
+}
+
+.First-item {
+    color: cyan;
+}
+
+.Last-item {
+    text-decoration: line-through;
+}
