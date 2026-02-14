@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.box {
+    padding: .5em;
+    margin: .1em;
+    border-radius: .25em;
+    outline: none;
+    border: 1px solid hsl(0, 0%, 70%)
+}
+
+.box.Default:hover, .box.Default:focus, .box.Large:hover, .box.Large:focus, .box.Small:hover, .box.Small:focus {
+
+    border-color: hsl(187, 88%, 30%); 
+    box-shadow: 0 0 5px 0  hsl(187, 88%, 40%);
+
+}
+
+.box.Success {
+    border-color: hsl(95, 67%, 50%);
+    font-size: .9em;
+}
+
+.box.Success:hover, .box.Success:focus {
+    border-color: hsl(95, 67%, 40%);
+    box-shadow: 0 0 5px 0  hsl(95, 67%, 40%);
+}
+
+.box.Error {
+    border-color: red;
+}
+
+.box.Error:hover, .box.Error:focus {
+    box-shadow: 0 0 5px 0 red;
+}
+
+.box.Large {
+    font-size: 1.25em;
+}
+
+.box.Small {
+    font-size: 0.7em;
+}
