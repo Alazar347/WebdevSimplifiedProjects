@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+    margin: 0;
+    
+}
+
+.header {
+    background-color: rgb(0, 149, 255);
+    padding: .9em;
+    color: white;
+    margin-bottom: 2em;
+    height: 12vh;
+
+}
+
+h1.header-title {
+    text-align: center;
+   
+}
+
+section.aboutMe {
+    padding: 2em;
+    word-spacing: 0.1em;
+}
+
+.section-title {
+    margin-bottom: .9em;
+    margin-left: -10px;
+}
+
+section.skills-section {
+    background-color:  rgb(0, 149, 255);
+    color: white;
+    padding: 2em;
+    margin-bottom: 2em;
+    
+}
+
+h2.skills {
+    margin-bottom: .4em;
+}
+
+section.skills-section>ul>li {
+    list-style: none;
+    font-style: italic;
+    font-size: 1.19em;
+    font-family: 'Courier New', Courier, monospace;
+    margin: .2em;
+}
+
+section.projects {
+   padding: 1em;
+}
+
+img.dount-image {
+    width: 300px;
+    height: 200px;
+    margin: 1em;
+    
+}
+
+.contact-form {
+    padding: 1em;
+}
+
+input.form-input {
+    width: 300px;
+    height: 80px;
+    padding: .4em;
+    margin: .5em;
+    border: 1px solid;
+    border-radius: .2em;
+    outline: none;
+}
+
+input.form-input:hover, input.form-input:focus  {
+ border-color: rgba(0, 115, 255, 0.653);
+ box-shadow: 0 0 5px 0 rgba(0, 115, 255, 0.653);
+}
+
+h2.contact-title {
+    padding-left: 14px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(74, 74, 203);
+    color: white;
+    border: 1px solid;
+    border-radius: 0.3em;
+}
+
+button:hover {
+    background-color: rgb(95, 95, 185);
+    box-shadow: 0 0 5px 0 rgb(95, 95, 185);
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(0, 149, 255);
+    height: 12vh;
+    padding: 2rem;
+    color: white;
+}
